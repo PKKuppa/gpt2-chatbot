@@ -41,7 +41,7 @@ def generate_response(prompt, max_length=350, temperature=0.7, top_p=0.9):
     return response
 
 #%% Test run
-test_prompt = "User: What do you think about juan?\nA: "
+test_prompt = "User: How has your day been?\nA: "
 response = generate_response(test_prompt)
 print(response)
 # %%
